@@ -14,7 +14,7 @@ from daemon.services.backup_service import resume_backup_restore_jobs
 from daemon.services.registry_service import load_recipes, get_recipes
 from daemon.services.docker_service import is_recipe_running, start_health_check
 
-DIST_DIR = Path(__file__).resolve().parent.parent / "frontend" / "dist"
+DIST_DIR = Path(settings.frontend_dist_path)
 
 
 async def _check_running_readiness():
