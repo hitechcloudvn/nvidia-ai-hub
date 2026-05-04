@@ -1,0 +1,69 @@
+services:
+  llama-server:
+    image: ghcr.io/ggml-org/llama.cpp:full-cuda13-b8953
+    container_name: nvidia-ai-hub-llamacpp-glm47-flash-q8
+    entrypoint:
+      - /bin/sh
+      - -c
+      - |
+        if [ ! -f /models/GLM-4.7-Flash-Q8_0.gguf ]; then
+          echo "[nvidia-ai-hub] Downloading GLM-4.7-Flash Q8_0 (~31.8 GB)..."
+          hf download unsloth/GLM-4.7-Flash-GGUF GLM-4.7-Flash-Q8_0.gguf --local-dir /models
+        fi
+        exec /app/llama-server "$$@"
+      - --
+    command:
+      - -m
+      - /models/GLM-4.7-Flash-Q8_0.gguf
+      - -ngl
+      - "999"
+      - -c
+      - "131072"
+      - --host
+      - "0.0.0.0"
+      - --port
+      - "8080"
+      - --alias
+      - glm-4.7-flash
+      - -fa
+      - "on"
+      - -ctk
+      - q4_0
+      - -ctv
+      - q4_0
+      - --jinja
+      - --temp
+      - "1.0"
+      - --top-p
+      - "0.95"
+      - --min-p
+      - "0.01"
+      - --repeat-penalty
+      - "1.0"
+      - --no-mmap
+      - --cont-batching
+      - -np
+      - "1"
+      - -t
+      - "16"
+      - -tb
+      - "16"
+    ports:
+      - "9001:8080"
+    volumes:
+      - llamacpp-glm47-flash-models:/models
+    environment:
+      - GGML_CUDA_ENABLE_UNIFIED_MEMORY=1
+      - HF_TOKEN=${HF_TOKEN:-}
+      - PYTHONUNBUFFERED=1
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    restart: unless-stopped
+
+volumes:
+  llamacpp-glm47-flash-models:
