@@ -13,7 +13,31 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  assess-tag:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      buildable: ${{ steps.check.outputs.buildable }}
+
+    steps:
+      - name: Check out released tag
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.release.tag_name || github.ref }}
+
+      - name: Determine whether the tag ships the release pipeline
+        id: check
+        run: |
+          if [ -f .github/workflows/release-publish.yml ]; then
+            echo "buildable=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "buildable=false" >> "$GITHUB_OUTPUT"
+            echo "Tag predates the release pipeline; skipping asset build for this historical marker release."
+          fi
+
   build-source-bundle:
+    needs: assess-tag
+    if: ${{ needs.assess-tag.outputs.buildable == 'true' }}
     runs-on: ubuntu-latest
     timeout-minutes: 30
 
@@ -64,6 +88,8 @@ jobs:
           if-no-files-found: error
 
   build-desktop-assets:
+    needs: assess-tag
+    if: ${{ needs.assess-tag.outputs.buildable == 'true' }}
     strategy:
       fail-fast: false
       matrix:
@@ -123,8 +149,10 @@ jobs:
 
   publish-release-assets:
     needs:
+      - assess-tag
       - build-source-bundle
       - build-desktop-assets
+    if: ${{ needs.assess-tag.outputs.buildable == 'true' }}
     runs-on: ubuntu-latest
     timeout-minutes: 15
 
