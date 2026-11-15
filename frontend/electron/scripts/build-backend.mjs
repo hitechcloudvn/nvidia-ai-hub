@@ -43,7 +43,7 @@ for (const entry of ['daemon', 'requirements.txt']) {
   }
 }
 
-runChecked(pythonCommand, ['-m', 'venv', pythonRoot], { cwd: repoRoot })
+runChecked(pythonCommand, ['-m', 'venv', '--copies', pythonRoot], { cwd: repoRoot })
 
 const pythonExecutable = process.platform === 'win32'
   ? path.join(pythonRoot, 'Scripts', 'python.exe')

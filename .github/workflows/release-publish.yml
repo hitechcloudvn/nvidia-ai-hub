@@ -4,12 +4,17 @@ on:
   release:
     types: [published]
   workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Existing release tag to build and attach assets for'
+        required: true
+        type: string
 
 permissions:
   contents: write
 
 concurrency:
-  group: release-publish-${{ github.event.release.tag_name || github.ref }}
+  group: release-publish-${{ inputs.tag || github.event.release.tag_name || github.ref }}
   cancel-in-progress: false
 
 jobs:
@@ -23,7 +28,7 @@ jobs:
       - name: Check out released tag
         uses: actions/checkout@v4
         with:
-          ref: ${{ github.event.release.tag_name || github.ref }}
+          ref: ${{ inputs.tag || github.event.release.tag_name || github.ref }}
 
       - name: Determine whether the tag ships the release pipeline
         id: check
@@ -45,7 +50,7 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
         with:
-          ref: ${{ github.event.release.tag_name || github.ref }}
+          ref: ${{ inputs.tag || github.event.release.tag_name || github.ref }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -96,13 +101,17 @@ jobs:
         include:
           - os: windows-latest
             artifact_name: nvidia-ai-hub-desktop-windows-release
-            build_command: npm run desktop:dist:win
+            build_command: >-
+              npx electron-builder --win nsis --publish never -c.artifactName='${productName}-${version}-win-${arch}-setup.${ext}' &&
+              npx electron-builder --win portable --publish never -c.artifactName='${productName}-${version}-win-${arch}-portable.${ext}' &&
+              npx electron-builder --win zip --publish never -c.artifactName='${productName}-${version}-win-${arch}.${ext}' &&
+              npx electron-builder --win msi --publish never -c.artifactName='${productName}-${version}-win-${arch}.${ext}'
           - os: macos-latest
             artifact_name: nvidia-ai-hub-desktop-macos-release
-            build_command: npm run desktop:dist
+            build_command: npx electron-builder --publish never
           - os: ubuntu-latest
             artifact_name: nvidia-ai-hub-desktop-linux-release
-            build_command: npm run desktop:dist
+            build_command: npx electron-builder --publish never
     runs-on: ${{ matrix.os }}
     timeout-minutes: 60
 
@@ -110,7 +119,7 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
         with:
-          ref: ${{ github.event.release.tag_name || github.ref }}
+          ref: ${{ inputs.tag || github.event.release.tag_name || github.ref }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -130,7 +139,57 @@ jobs:
 
       - name: Build desktop artifacts
         working-directory: frontend
-        run: ${{ matrix.build_command }}
+        shell: bash
+        run: |
+          npm run desktop:prepare
+          node <<'NODE'
+          const fs = require('fs')
+          const path = require('path')
+
+          // electron-builder reads author.email for the .deb maintainer field
+          const pkgPath = path.resolve('package.json')
+          const pkg = JSON.parse(fs.readFileSync(pkgPath, 'utf8'))
+          if (!pkg.author || typeof pkg.author !== 'object' || !pkg.author.email) {
+            const name = (pkg.author && (pkg.author.name || pkg.author)) || 'Pho Tue SoftWare And Technology Solutions Joint Stock Company'
+            pkg.author = { name: name, email: 'thanhan92f1@gmail.com' }
+            fs.writeFileSync(pkgPath, JSON.stringify(pkg, null, 2) + '\n')
+            console.log('packaging: normalized author email')
+          }
+
+          // venv absolute symlinks point outside the app bundle and make
+          // codesign --verify --strict fail on macOS; copy them in place
+          const root = path.resolve('electron/backend-dist')
+          if (fs.existsSync(root)) {
+            let fixed = 0
+            const walk = (dir) => {
+              for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+                const target = path.join(dir, entry.name)
+                if (entry.isSymbolicLink()) {
+                  let resolved = null
+                  try { resolved = fs.realpathSync(target) } catch {}
+                  const inside = resolved !== null && (resolved === root || resolved.startsWith(root + path.sep))
+                  if (!inside) {
+                    if (resolved && fs.existsSync(resolved) && fs.statSync(resolved).isFile()) {
+                      fs.unlinkSync(target)
+                      fs.copyFileSync(resolved, target)
+                    } else if (resolved && fs.existsSync(resolved) && fs.statSync(resolved).isDirectory()) {
+                      fs.unlinkSync(target)
+                      fs.cpSync(resolved, target, { recursive: true, dereference: true })
+                    } else {
+                      fs.unlinkSync(target)
+                    }
+                    fixed += 1
+                  }
+                } else if (entry.isDirectory()) {
+                  walk(target)
+                }
+              }
+            }
+            walk(root)
+            console.log('packaging: sanitized external symlinks: ' + fixed)
+          }
+          NODE
+          ${{ matrix.build_command }}
 
       - name: Upload desktop artifacts
         uses: actions/upload-artifact@v4
@@ -144,7 +203,9 @@ jobs:
             frontend/release/*.AppImage
             frontend/release/*.deb
             frontend/release/*.tar.gz
+            frontend/release/*.blockmap
             frontend/release/latest*.yml
+            !frontend/release/*.__uninstaller.exe
           if-no-files-found: error
 
   publish-release-assets:
@@ -165,7 +226,7 @@ jobs:
       - name: Publish release notes and assets
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: ${{ github.event.release.tag_name || github.ref_name }}
+          tag_name: ${{ inputs.tag || github.event.release.tag_name || github.ref_name }}
           generate_release_notes: true
           append_body: true
           draft: false
@@ -179,4 +240,5 @@ jobs:
             dist/release-assets/**/*.dmg
             dist/release-assets/**/*.AppImage
             dist/release-assets/**/*.deb
+            dist/release-assets/**/*.blockmap
             dist/release-assets/**/latest*.yml

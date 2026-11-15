@@ -3,7 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "description": "Electron and web frontend for NVIDIA AI Hub by Pho Tue SoftWare Solutions JSC.",
-  "author": "Pho Tue SoftWare And Technology Solutions Joint Stock Company",
+  "author": {
+    "name": "Pho Tue SoftWare And Technology Solutions Joint Stock Company",
+    "email": "thanhan92f1@gmail.com"
+  },
   "license": "SEE LICENSE IN ../LICENSE",
   "homepage": "https://github.com/hitechcloudvn/nvidia-ai-hub",
   "repository": {
@@ -25,8 +28,8 @@
     "preview": "vite preview",
     "desktop:dev": "npm run build:web && npm run build:icons && npm run electron:ensure && electron .",
     "desktop:pack": "npm run desktop:prepare && electron-builder --dir",
-    "desktop:dist": "npm run desktop:prepare && electron-builder",
-    "desktop:dist:win": "npm run desktop:prepare && electron-builder --win nsis -c.artifactName=\"${productName}-${version}-win-${arch}-setup.${ext}\" && electron-builder --win portable -c.artifactName=\"${productName}-${version}-win-${arch}-portable.${ext}\" && electron-builder --win zip -c.artifactName=\"${productName}-${version}-win-${arch}.${ext}\" && electron-builder --win msi -c.artifactName=\"${productName}-${version}-win-${arch}.${ext}\"",
+    "desktop:dist": "npm run desktop:prepare && electron-builder --publish never",
+    "desktop:dist:win": "npm run desktop:prepare && electron-builder --win nsis --publish never -c.artifactName=\"${productName}-${version}-win-${arch}-setup.${ext}\" && electron-builder --win portable --publish never -c.artifactName=\"${productName}-${version}-win-${arch}-portable.${ext}\" && electron-builder --win zip --publish never -c.artifactName=\"${productName}-${version}-win-${arch}.${ext}\" && electron-builder --win msi --publish never -c.artifactName=\"${productName}-${version}-win-${arch}.${ext}\"",
     "postinstall": "node ./electron/scripts/ensure-electron.mjs --soft"
   },
   "dependencies": {
