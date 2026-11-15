@@ -16,6 +16,8 @@
 [![Latest Tag](https://img.shields.io/github/v/tag/hitechcloudvn/nvidia-ai-hub?sort=semver&style=flat-square)](https://github.com/hitechcloudvn/nvidia-ai-hub/tags)
 [![GitHub Streak](https://img.shields.io/badge/GitHub-Streak%20via%20Insights-24292f?style=flat-square&logo=github)](https://github.com/hitechcloudvn/nvidia-ai-hub/pulse)
 
+🦊 **GitLab Mirror:** https://gitlab.com/hitechcloudvn/nvidia-ai-hub
+
 **Quick links:** [Overview](#overview) · [Installation](./docs/installation.md) · [Production deployment](./docs/deployment-production.md) · [Local development](./docs/local-development.md) · [Planning](#planning-and-roadmap) · [Contributing](#contributing) · [Security](#security-and-conduct) · [Community](#community) · [Licensing](#license)
 
 **Your AI app store for NVIDIA GPU platforms.** Browse, install, and launch AI apps with one click.

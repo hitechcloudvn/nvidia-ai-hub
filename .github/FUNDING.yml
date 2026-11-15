@@ -1,9 +1,5 @@
-# Replace the empty `github` list with your GitHub Sponsors handle after
-# GitHub Sponsors is enabled for the owner or organization.
-# Example:
+# GitHub Sponsors handle for the hitechcloudvn organization.
 github: [hitechcloudvn]
-
-github: []
 custom:
   - https://github.com/hitechcloudvn
   - https://github.com/hitechcloudvn/nvidia-ai-hub/blob/main/COMMERCIAL-LICENSE.md
