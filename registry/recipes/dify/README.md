@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # Dify
 
 Practical self-hosted Dify stack for NVIDIA GPUs using the official upstream images for the web UI, API, workers, sandbox, plugin daemon, PostgreSQL, Redis, and Weaviate.

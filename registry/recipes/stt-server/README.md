@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # STT Server
 
 Local Faster-Whisper API server for NVIDIA GPUs.

@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # Browser-Use Workstation
 
 Browser-based automation workstation for NVIDIA GPUs using the official `browser-use/web-ui` project.

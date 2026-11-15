@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # VLM-R1 32B
 
 Official OpenBMB `VLM-R1-32B` baseline for operators who want a higher-capacity multimodal reasoning model behind a local OpenAI-compatible vLLM endpoint.

@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # F5 TTS App
 
 Run the official F5-TTS Gradio interface locally on NVIDIA GPUs.

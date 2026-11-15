@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](sparkdeck-project-blueprint.vi.md)
+
 # NVIDIA AI Hub by Pho Tue SoftWare Solutions JSC — Project Blueprint
 ## A Docker-Native AI App Launcher for NVIDIA GPU Platforms
 

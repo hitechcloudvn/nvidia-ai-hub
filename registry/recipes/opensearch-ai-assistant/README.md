@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # OpenSearch AI Assistant
 
 OpenSearch and OpenSearch Dashboards preset for NVIDIA GPUs users who want a practical local foundation for AI-assisted search, PPL query assist, ML Commons experimentation, and shared Ollama connectivity without claiming a fully pre-wired agent deployment.

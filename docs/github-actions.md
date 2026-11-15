@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](github-actions.vi.md)
+
 # GitHub Actions Guide
 
 This document describes the active automation model for this repository.

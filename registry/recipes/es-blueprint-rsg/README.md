@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # es-blueprint-rsg
 
 Short reviewer/tester notes for the `Intent-Based RAN Energy Efficiency Blueprint` recipe.

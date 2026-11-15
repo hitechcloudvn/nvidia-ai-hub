@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # Hoppscotch
 
 Conservative self-hosted Hoppscotch workspace for NVIDIA AI Hub using the official all-in-one image, a local PostgreSQL database, and persistent server data for API collaboration.

@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # Docmost
 
 Practical self-hosted Docmost workspace for NVIDIA AI Hub using the official image, local PostgreSQL, Redis, and persistent document storage.

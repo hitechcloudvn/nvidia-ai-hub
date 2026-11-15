@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # LM Studio Bridge
 
 Headless LM Studio baseline for NVIDIA GPUs that documents how to run `llmster` and the `lms` CLI on the host, load a local model, and expose LM Studio's OpenAI-compatible and native REST APIs on port `1234`.

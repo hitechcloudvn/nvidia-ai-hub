@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](licensing.vi.md)
+
 # Licensing Guide
 
 This document explains the practical boundary between permitted non-commercial use and prohibited commercial use for NVIDIA AI Hub by Pho Tue SoftWare Solutions JSC.

@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # LobeHub
 
 Practical self-hosted LobeHub AI workspace for NVIDIA AI Hub using the official image, local PostgreSQL with PGVector, Redis, and RustFS-compatible S3 object storage.

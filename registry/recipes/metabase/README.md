@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # Metabase
 
 Practical self-hosted Metabase analytics workspace for NVIDIA AI Hub using the official image and a local PostgreSQL application database.

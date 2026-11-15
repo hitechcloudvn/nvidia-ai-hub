@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # VoiceCraft Lab
 
 Run the official VoiceCraft Gradio workflow locally on NVIDIA GPUs.

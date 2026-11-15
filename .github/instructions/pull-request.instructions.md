@@ -2,6 +2,8 @@
 description: "Use when preparing pull requests, updating the PR template, or documenting reviewer guidance, validation scope, risks, and rollout notes for NVIDIA AI Hub by Pho Tue SoftWare Solutions JSC changes."
 name: "Pull Request Instructions"
 ---
+> **English** | [Tiếng Việt](pull-request.instructions.vi.md)
+
 # Pull Request Instructions
 
 - Keep each pull request scoped to one concern when possible.

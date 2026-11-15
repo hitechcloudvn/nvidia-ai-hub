@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # LlamaIndex Starter
 
 Practical self-hosted LlamaIndex starter for NVIDIA GPUs using a local FastAPI app, Qdrant vector storage, and the shared `ollama-runtime` recipe for chat and embedding models.

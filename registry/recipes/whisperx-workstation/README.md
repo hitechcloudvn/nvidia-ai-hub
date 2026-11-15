@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # WhisperX Workstation
 
 Local WhisperX transcription workstation for NVIDIA GPUs.

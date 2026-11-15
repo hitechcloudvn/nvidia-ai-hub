@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # Audio Agent Console
 
 Run a browser-based voice agent console on NVIDIA GPUs with Pipecat SmallWebRTC transport, OpenAI speech services, and a prebuilt web client.

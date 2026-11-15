@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # GraphRAG Workstation Projects
 
 Each subfolder in this directory is treated as one GraphRAG dataset workspace.

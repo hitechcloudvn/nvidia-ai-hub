@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # Open WebUI RAG Preset
 
 Practical Open WebUI starter for local document chat and retrieval-augmented workflows using the official Open WebUI image with a bundled local Qdrant vector database.

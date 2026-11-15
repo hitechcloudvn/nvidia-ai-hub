@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # llama.cpp Server
 
 Official `llama.cpp` HTTP server baseline for NVIDIA GPUs with OpenAI-compatible APIs, built-in Web UI, GGUF model serving, optional Hugging Face pull-on-start, and persistent local cache directories.

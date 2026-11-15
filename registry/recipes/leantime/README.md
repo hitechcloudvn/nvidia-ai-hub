@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # Leantime
 
 Practical self-hosted Leantime workspace for NVIDIA AI Hub using the official image, a local MySQL database, and persistent project files for a conservative single-instance baseline.

@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # Frontend Workspace
 
 This directory contains the React + Vite frontend for `NVIDIA AI Hub by Pho Tue SoftWare Solutions JSC`.

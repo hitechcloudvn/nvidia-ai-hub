@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # Live VLM WebUI on NVIDIA GPUs
 
 Live VLM WebUI provides a real-time webcam and WebRTC interface for vision-language models on NVIDIA GPUs. This NVIDIA AI Hub by Pho Tue SoftWare Solutions JSC recipe runs the official NVIDIA container, exposes the HTTPS UI on port `8090`, and defaults to a local Ollama-compatible backend.

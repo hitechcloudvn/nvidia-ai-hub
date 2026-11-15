@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # Langfuse
 
 Practical self-hosted Langfuse stack for NVIDIA AI Hub using the official application image with local PostgreSQL, ClickHouse, Redis, and MinIO dependencies.

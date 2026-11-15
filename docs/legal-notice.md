@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](legal-notice.vi.md)
+
 # Legal Notice and Trademark Attribution
 
 This document provides the consolidated legal notice, ownership statement, and trademark attribution guidance for `NVIDIA AI Hub by Pho Tue SoftWare Solutions JSC`.

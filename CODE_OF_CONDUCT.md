@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](CODE_OF_CONDUCT.vi.md)
+
 # Code of Conduct
 
 ## Purpose

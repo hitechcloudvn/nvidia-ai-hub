@@ -3,6 +3,7 @@ name: Recipe submission
 about: Propose a new or updated app recipe for the registry
 labels: recipe
 ---
+> **English** | [Tiếng Việt](recipe_submission.vi.md)
 
 ## Recipe Summary
 

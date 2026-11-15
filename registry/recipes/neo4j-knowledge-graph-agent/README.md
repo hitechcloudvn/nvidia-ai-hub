@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # Neo4j Knowledge Graph Agent
 
 Neo4j Community preset for NVIDIA GPUs users who want a practical local graph database foundation for knowledge graph experiments, Cypher exploration, graph-RAG prototypes, and agent workflows that need a persistent property graph backend.

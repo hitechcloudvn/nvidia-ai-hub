@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # TGI Runtime
 
 Official Hugging Face Text Generation Inference baseline for NVIDIA GPUs with generation endpoints, OpenAI-compatible chat completions, Swagger docs, Prometheus metrics, and persistent model cache storage.

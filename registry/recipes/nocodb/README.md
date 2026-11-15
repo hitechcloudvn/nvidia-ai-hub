@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # NocoDB
 
 Practical self-hosted NocoDB workspace for NVIDIA AI Hub using the official image and a local PostgreSQL metadata database.

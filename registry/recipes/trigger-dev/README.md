@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # Trigger.dev
 
 Conservative self-hosted Trigger.dev baseline for NVIDIA AI Hub using the official webapp image, local PostgreSQL, Redis, and Electric services, and a published web interface on port `8030`.

@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # Windmill
 
 Practical self-hosted Windmill workspace for NVIDIA AI Hub using the official image, local PostgreSQL, and a simple server-plus-worker baseline.

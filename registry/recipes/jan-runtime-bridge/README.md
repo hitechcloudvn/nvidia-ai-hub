@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # Jan Runtime Bridge
 
 Host-managed Jan baseline for NVIDIA GPUs that documents how to use Jan Desktop or the `jan` CLI to expose a local OpenAI-compatible API server on port `1337` with mandatory API-key protection.

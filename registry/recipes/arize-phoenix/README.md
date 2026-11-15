@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # Arize Phoenix
 
 Practical self-hosted Arize Phoenix workspace for NVIDIA AI Hub using the official container image and a persistent local data mount.

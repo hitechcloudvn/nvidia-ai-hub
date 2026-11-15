@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # FastChat Runtime
 
 Official FastChat-style runtime baseline for NVIDIA GPUs with one controller, one model worker, and one OpenAI-compatible API server that exposes `/v1` endpoints for local chat, completions, embeddings, and model discovery.

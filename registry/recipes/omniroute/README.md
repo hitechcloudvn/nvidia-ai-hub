@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # OmniRoute
 
 Official OmniRoute AI gateway baseline for operators who need one local control plane for multi-provider LLM access, OpenAI-compatible `/v1` traffic, smart fallback chains, rate-limit visibility, cache controls, and dashboard-driven observability.

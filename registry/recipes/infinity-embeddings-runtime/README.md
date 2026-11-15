@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # Infinity Embeddings Runtime
 
 Official Infinity v2 baseline for NVIDIA GPUs with OpenAI-compatible embeddings APIs, model discovery, optional reranking and classification support, Swagger docs, FastAPI health checks, and persistent Hugging Face cache.

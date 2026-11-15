@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # ImageBind Demo App
 
 Local Gradio wrapper around the official Meta `ImageBind` model for cross-modal similarity experiments across text, images, and audio on NVIDIA GPUs.

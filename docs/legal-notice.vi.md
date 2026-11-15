@@ -1,3 +1,5 @@
+> [English](legal-notice.md) | **Tiếng Việt**
+
 # Thông báo pháp lý và ghi nhận nhãn hiệu
 
 Tài liệu này là bản diễn giải pháp lý bằng tiếng Việt cho `NVIDIA AI Hub by Pho Tue SoftWare Solutions JSC`, nhằm hỗ trợ công bố nội bộ, đối tác, vận hành, và rà soát tuân thủ.
@@ -6,8 +8,8 @@ Nếu có bất kỳ khác biệt nào giữa tài liệu này và các văn b�
 
 - [`../LICENSE`](../LICENSE)
 - [`../NOTICE`](../NOTICE)
-- [`../COMMERCIAL-LICENSE.md`](../COMMERCIAL-LICENSE.md)
-- [`./licensing.md`](./licensing.md)
+- [`../COMMERCIAL-LICENSE.md`](../COMMERCIAL-LICENSE.vi.md)
+- [`./licensing.md`](./licensing.vi.md)
 - [`./legal-notice.md`](./legal-notice.md)
 
 ## 1. Chủ thể giải pháp
@@ -96,7 +98,7 @@ Quyền sử dụng thương mại, quyền cấp phép thương mại riêng, q
 
 Việc sử dụng thương mại phải tuân theo:
 
-- [`../COMMERCIAL-LICENSE.md`](../COMMERCIAL-LICENSE.md)
+- [`../COMMERCIAL-LICENSE.md`](../COMMERCIAL-LICENSE.vi.md)
 - [`../LICENSE`](../LICENSE)
 - các chấp thuận riêng bằng văn bản từ chủ thể có quyền
 
@@ -104,8 +106,8 @@ Việc sử dụng thương mại phải tuân theo:
 
 Đối với các câu hỏi liên quan đến cấp phép, thương mại hóa, sử dụng thương hiệu, công bố ra bên ngoài, hồ sơ khách hàng, hoặc rà soát pháp lý trước triển khai, tham khảo:
 
-- [`../SUPPORT.md`](../SUPPORT.md)
-- [`./licensing.md`](./licensing.md)
+- [`../SUPPORT.md`](../SUPPORT.vi.md)
+- [`./licensing.md`](./licensing.vi.md)
 - [`./legal-notice.md`](./legal-notice.md)
 
 Khi cần phát hành ra thị trường, giao cho khách hàng, tích hợp vào dịch vụ thương mại, hoặc sử dụng trong tài liệu pháp lý chính thức, nên thực hiện bước rà soát pháp lý chuyên trách trước khi công bố.

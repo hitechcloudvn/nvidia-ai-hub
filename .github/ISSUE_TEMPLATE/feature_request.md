@@ -3,6 +3,7 @@ name: Feature request
 about: Propose a focused enhancement for NVIDIA AI Hub by Pho Tue SoftWare Solutions JSC
 labels: enhancement
 ---
+> **English** | [Tiếng Việt](feature_request.vi.md)
 
 ## Summary
 

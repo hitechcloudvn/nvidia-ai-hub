@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # CosyVoice Studio
 
 Run the official CosyVoice web demo locally on NVIDIA GPUs.

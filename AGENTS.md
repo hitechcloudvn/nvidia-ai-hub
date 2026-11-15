@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](AGENTS.vi.md)
+
 # Agent Instructions
 
 ## User-Visible Hub Changes

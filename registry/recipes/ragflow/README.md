@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # RAGFlow
 
 Official image-based RAGFlow stack for NVIDIA GPUs using the upstream CPU container together with Elasticsearch, MySQL, MinIO, and Redis.

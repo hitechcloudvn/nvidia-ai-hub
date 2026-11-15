@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # Rerank Server
 
 Dedicated Hugging Face Text Embeddings Inference baseline for NVIDIA GPUs focused on cross-encoder reranking workloads with `/rerank`, Swagger docs, health checks, Prometheus metrics, and optional Bearer-token authentication.

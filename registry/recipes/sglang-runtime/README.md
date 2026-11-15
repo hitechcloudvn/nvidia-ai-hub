@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # SGLang Runtime
 
 Official SGLang runtime baseline for NVIDIA GPUs with OpenAI-compatible APIs, native generation endpoints, Swagger API docs, configurable launch arguments, and persistent Hugging Face cache mounts.

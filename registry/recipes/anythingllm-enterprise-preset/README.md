@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # AnythingLLM Enterprise Preset
 
 Official-image AnythingLLM preset for NVIDIA GPUs teams that want a stronger default starting point for role-based access, persistent local state, document workflows, agent features, and shared Ollama connectivity.

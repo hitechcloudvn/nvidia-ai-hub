@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # Ollama Runtime
 
 Official Ollama runtime baseline for NVIDIA GPUs with a lightweight management UI, persistent local model storage, configurable starter-model bootstrap, and a shared local API endpoint for downstream recipes.

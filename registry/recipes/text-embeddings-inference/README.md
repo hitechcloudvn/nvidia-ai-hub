@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # Text Embeddings Inference
 
 Official Hugging Face Text Embeddings Inference baseline for NVIDIA GPUs with fast embedding APIs, reranking support, sequence-classification endpoints, Swagger docs, Prometheus metrics, and optional OpenAI-style authentication.

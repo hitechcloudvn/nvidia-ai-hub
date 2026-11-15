@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # Segment Anything Studio
 
 Local Gradio wrapper around the official Meta `Segment Anything` model for promptable segmentation and automatic mask generation on NVIDIA GPUs.

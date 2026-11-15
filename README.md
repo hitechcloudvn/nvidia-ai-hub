@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # NVIDIA AI Hub by Pho Tue SoftWare Solutions JSC  
 ## A major update is coming in August 2026.
 

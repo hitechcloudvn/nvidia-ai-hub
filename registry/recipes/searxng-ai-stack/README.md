@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # SearXNG AI Stack
 
 Practical self-hosted SearXNG stack for NVIDIA AI Hub using the official container image, local Redis caching, and persistent configuration storage.

@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # LiteLLM Proxy
 
 Official LiteLLM proxy baseline for NVIDIA GPUs with one shared OpenAI-compatible endpoint, config-driven model routing, central API-key enforcement, and health APIs in front of multiple dedicated vLLM backends.

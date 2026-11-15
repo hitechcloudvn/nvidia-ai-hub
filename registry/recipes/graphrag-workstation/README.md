@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # GraphRAG Workstation
 
 Practical GraphRAG workstation for NVIDIA GPUs using a local Streamlit workbench and the official `graphrag` Python package.

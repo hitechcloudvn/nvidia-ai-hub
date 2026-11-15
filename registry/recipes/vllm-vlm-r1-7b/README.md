@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # VLM-R1 7B
 
 Official OpenBMB `VLM-R1-7B` baseline for operators who want a compact multimodal reasoning model behind a local OpenAI-compatible vLLM endpoint.

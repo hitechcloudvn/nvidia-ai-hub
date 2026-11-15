@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # Docling Pipeline Workspace
 
 This workspace stores persistent runtime data for the `docling-pipeline` recipe.

@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # n8n AI Starter
 
 Practical self-hosted n8n starter for NVIDIA AI Hub using the official n8n image, local PostgreSQL, and persistent user data.

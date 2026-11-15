@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](local-development.vi.md)
+
 # Local Development Guide
 
 This guide is the canonical source for contributor setup, source-based development, and local validation.

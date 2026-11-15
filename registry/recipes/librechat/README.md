@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # LibreChat
 
 Official image-based LibreChat stack for NVIDIA GPUs.

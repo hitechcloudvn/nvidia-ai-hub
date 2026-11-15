@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # Budibase
 
 Practical self-hosted Budibase workspace for NVIDIA AI Hub using official service images, local CouchDB, Redis, MinIO-compatible object storage, and the default proxy-exposed web UI.

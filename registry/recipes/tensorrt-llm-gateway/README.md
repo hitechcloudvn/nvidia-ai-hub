@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # TensorRT-LLM API Gateway
 
 Official TensorRT-LLM OpenAI-compatible serving baseline for NVIDIA GPUs with `/v1` inference APIs, `/health`, `/metrics`, `/version`, configurable parallelism, and persistent local cache mounts.

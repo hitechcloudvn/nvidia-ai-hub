@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # Parler TTS Studio
 
 Local Parler-TTS voice generation studio for NVIDIA GPUs.

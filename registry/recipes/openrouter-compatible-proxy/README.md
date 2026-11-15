@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # OpenRouter-Compatible Proxy
 
 Local OpenRouter relay baseline that publishes one small OpenAI-compatible proxy shim on the NVIDIA AI Hub host while forwarding requests to OpenRouter's hosted upstream API.

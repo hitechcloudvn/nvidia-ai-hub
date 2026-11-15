@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # Activepieces
 
 Practical self-hosted Activepieces automation workspace for NVIDIA AI Hub using the official image, local PostgreSQL, Redis, and persistent application state.

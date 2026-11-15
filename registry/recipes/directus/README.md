@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # Directus
 
 Practical self-hosted Directus workspace for NVIDIA AI Hub using the official image, persistent local SQLite storage, and uploads for a conservative single-instance baseline.

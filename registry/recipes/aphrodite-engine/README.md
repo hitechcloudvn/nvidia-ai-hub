@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # Aphrodite Engine
 
 Official Aphrodite OpenAI-compatible serving baseline for NVIDIA GPUs with chat and completions APIs, configurable GPU memory controls, and persistent Hugging Face cache mounts.

@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # Docling Pipeline
 
 Local document-conversion pipeline for NVIDIA GPUs using the official `docling` Python package and a lightweight FastAPI job API.

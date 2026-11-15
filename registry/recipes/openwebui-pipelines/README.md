@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # Open WebUI Pipelines
 
 Official Docker-based recipe for the Open WebUI Pipelines service.

@@ -3,6 +3,7 @@ name: Bug report
 about: Report a reproducible problem in NVIDIA AI Hub by Pho Tue SoftWare Solutions JSC
 labels: bug
 ---
+> **English** | [Tiếng Việt](bug_report.vi.md)
 
 ## Summary
 

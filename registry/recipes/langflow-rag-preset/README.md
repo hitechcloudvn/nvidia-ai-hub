@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # Langflow RAG Preset
 
 Official-image Langflow preset for NVIDIA GPUs users who want a practical starting point for local RAG pipelines, agent orchestration, visual flow development, and shared Ollama connectivity without maintaining a custom image.

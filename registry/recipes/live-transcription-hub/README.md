@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # Live Transcription Hub
 
 Run a local real-time transcription service on NVIDIA GPUs with a Whisper-style WebSocket interface and an OpenAI-compatible audio upload endpoint.

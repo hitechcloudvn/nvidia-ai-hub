@@ -1,3 +1,5 @@
+> **English** | [Tiếng Việt](README.vi.md)
+
 # Formbricks
 
 Practical self-hosted Formbricks workspace for NVIDIA AI Hub using the official image, local PostgreSQL and Redis services, and persistent uploads for a conservative single-instance baseline.
