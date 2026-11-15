@@ -33,7 +33,7 @@ This document is the index for contributor, maintainer, support, and governance 
 - [`../NOTICE`](../NOTICE)
 - [`./licensing.md`](./licensing.md)
 - [`./legal-notice.md`](./legal-notice.md)
-- [`./legal-vi.md`](./legal-vi.md)
+- [`./legal-notice.vi.md`](./legal-notice.vi.md)
 
 ### Planning and roadmap
 
@@ -94,7 +94,7 @@ When these areas change, update the related docs together:
 - `COMMERCIAL-LICENSE.md`
 - `docs/licensing.md`
 - `docs/legal-notice.md`
-- `docs/legal-vi.md`
+- `docs/legal-notice.vi.md`
 - `CONTRIBUTING.md`
 - `SUPPORT.md`
 

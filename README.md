@@ -155,7 +155,7 @@ The short product name `NVIDIA AI Hub` and the detailed product name `NVIDIA AI 
 
 All other trade names, trademarks, service marks, logos, and brand features mentioned in this repository remain the property of their respective owners.
 
-For controlling legal terms, review [`LICENSE`](./LICENSE), [`NOTICE`](./NOTICE), [`COMMERCIAL-LICENSE.md`](./COMMERCIAL-LICENSE.md), [`docs/licensing.md`](./docs/licensing.md), [`docs/legal-notice.md`](./docs/legal-notice.md), and the Vietnamese reference notice [`docs/legal-vi.md`](./docs/legal-vi.md).
+For controlling legal terms, review [`LICENSE`](./LICENSE), [`NOTICE`](./NOTICE), [`COMMERCIAL-LICENSE.md`](./COMMERCIAL-LICENSE.md), [`docs/licensing.md`](./docs/licensing.md), [`docs/legal-notice.md`](./docs/legal-notice.md), and the Vietnamese-language version [`docs/legal-notice.vi.md`](./docs/legal-notice.vi.md).
 
 ## Quick install
 

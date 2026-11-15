@@ -75,7 +75,7 @@ When a change touches legal identity, trademark wording, commercial-use boundari
 - `COMMERCIAL-LICENSE.md`
 - `docs/licensing.md`
 - `docs/legal-notice.md`
-- `docs/legal-vi.md`
+- `docs/legal-notice.vi.md`
 - `docs/community.md`
 
 ## Project Structure

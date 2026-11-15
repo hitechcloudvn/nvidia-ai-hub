@@ -11,7 +11,7 @@ If this document differs from the controlling license terms, the following docum
 - [`../COMMERCIAL-LICENSE.md`](../COMMERCIAL-LICENSE.md)
 - [`./licensing.md`](./licensing.md)
 
-For a Vietnamese-language legal reference version, see [`./legal-vi.md`](./legal-vi.md).
+For the Vietnamese-language version, see [`./legal-notice.vi.md`](./legal-notice.vi.md).
 
 ## Legal Identity
 
@@ -81,7 +81,7 @@ When updating repository materials:
 - do not remove legal disclaimers without replacing them consistently across the repository;
 - do not use third-party logos or brand assets unless there is a confirmed legal basis to do so;
 - do not introduce language implying official NVIDIA relationship without written authorization; and
-- keep legal wording synchronized across `README.md`, `NOTICE`, `LICENSE`, `COMMERCIAL-LICENSE.md`, `docs/licensing.md`, and `docs/legal-vi.md`.
+- keep legal wording synchronized across `README.md`, `NOTICE`, `LICENSE`, `COMMERCIAL-LICENSE.md`, `docs/licensing.md`, and `docs/legal-notice.vi.md`.
 
 ## Questions
 
