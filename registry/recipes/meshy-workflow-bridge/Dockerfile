@@ -1,4 +1,4 @@
-FROM ghcr.io/hitechcloud-vietnam/comfyui-spark:latest
+FROM ghcr.io/hitechcloudvn/comfyui-spark:latest
 
 ENV PIP_PREFER_BINARY=1
 ENV GRADIO_ANALYTICS_ENABLED=False

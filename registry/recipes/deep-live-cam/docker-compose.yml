@@ -1,6 +1,6 @@
 services:
   deep-live-cam:
-    image: ghcr.io/hitechcloud-vietnam/deep-live-cam-spark-ai-hub:latest
+    image: ghcr.io/hitechcloudvn/deep-live-cam-spark-ai-hub:latest
     container_name: nvidia-ai-hub-deep-live-cam
     ports:
       - "7869:7860"

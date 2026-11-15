@@ -1,6 +1,6 @@
 services:
   minicpm-o:
-    image: ghcr.io/hitechcloud-vietnam/minicpm-o-spark-ai-hub:latest
+    image: ghcr.io/hitechcloudvn/minicpm-o-spark-ai-hub:latest
     container_name: nvidia-ai-hub-minicpm-o
     ports:
       - "7868:7860"

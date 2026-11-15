@@ -5,7 +5,7 @@ description: "Fine-grained spatial image editing with SpatialEdit-16B — rotate
 author: "EasonXiao-888"
 source: "nvidia-ai-hub"
 website: "https://github.com/EasonXiao-888/SpatialEdit"
-upstream: "https://github.com/hitechcloud-vietnam/spatialedit-spark-ai-hub"
+upstream: "https://github.com/hitechcloudvn/spatialedit-spark-ai-hub"
 fork: "https://github.com/EasonXiao-888/SpatialEdit"
 category: image-gen
 tags:

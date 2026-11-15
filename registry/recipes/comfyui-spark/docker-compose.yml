@@ -1,6 +1,6 @@
 services:
   comfyui:
-    image: ghcr.io/hitechcloud-vietnam/comfyui-spark:latest
+    image: ghcr.io/hitechcloudvn/comfyui-spark:latest
     container_name: nvidia-ai-hub-comfyui
     ports:
       - "8188:8188"

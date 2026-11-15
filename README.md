@@ -6,15 +6,15 @@
 [![License](https://img.shields.io/badge/License-Non--Commercial-orange?style=flat-square)](./LICENSE)
 [![Sponsor](https://img.shields.io/badge/Sponsor-Commercial%20Licensing-purple?style=flat-square)](./COMMERCIAL-LICENSE.md)
 [![Automation](https://img.shields.io/badge/GitHub%20Actions-Automation%20Guide-6f42c1?style=flat-square)](./docs/github-actions.md)
-[![GitHub Stars](https://img.shields.io/github/stars/hitechcloud-vietnam/nvidia-ai-hub?style=flat-square)](https://github.com/hitechcloud-vietnam/nvidia-ai-hub/stargazers)
-[![Open Issues](https://img.shields.io/github/issues/hitechcloud-vietnam/nvidia-ai-hub?style=flat-square)](https://github.com/hitechcloud-vietnam/nvidia-ai-hub/issues)
-[![GitHub License](https://img.shields.io/github/license/hitechcloud-vietnam/nvidia-ai-hub?style=flat-square)](./LICENSE)
-[![Last Commit](https://img.shields.io/github/last-commit/hitechcloud-vietnam/nvidia-ai-hub?style=flat-square)](https://github.com/hitechcloud-vietnam/nvidia-ai-hub/commits/main)
-[![Contributors](https://img.shields.io/github/contributors/hitechcloud-vietnam/nvidia-ai-hub?style=flat-square)](https://github.com/hitechcloud-vietnam/nvidia-ai-hub/graphs/contributors)
-[![Code Size](https://img.shields.io/github/languages/code-size/hitechcloud-vietnam/nvidia-ai-hub?style=flat-square)](https://github.com/hitechcloud-vietnam/nvidia-ai-hub)
-[![Closed PRs](https://img.shields.io/github/issues-pr-closed/hitechcloud-vietnam/nvidia-ai-hub?style=flat-square)](https://github.com/hitechcloud-vietnam/nvidia-ai-hub/pulls?q=is%3Apr+is%3Aclosed)
-[![Latest Tag](https://img.shields.io/github/v/tag/hitechcloud-vietnam/nvidia-ai-hub?sort=semver&style=flat-square)](https://github.com/hitechcloud-vietnam/nvidia-ai-hub/tags)
-[![GitHub Streak](https://img.shields.io/badge/GitHub-Streak%20via%20Insights-24292f?style=flat-square&logo=github)](https://github.com/hitechcloud-vietnam/nvidia-ai-hub/pulse)
+[![GitHub Stars](https://img.shields.io/github/stars/hitechcloudvn/nvidia-ai-hub?style=flat-square)](https://github.com/hitechcloudvn/nvidia-ai-hub/stargazers)
+[![Open Issues](https://img.shields.io/github/issues/hitechcloudvn/nvidia-ai-hub?style=flat-square)](https://github.com/hitechcloudvn/nvidia-ai-hub/issues)
+[![GitHub License](https://img.shields.io/github/license/hitechcloudvn/nvidia-ai-hub?style=flat-square)](./LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/hitechcloudvn/nvidia-ai-hub?style=flat-square)](https://github.com/hitechcloudvn/nvidia-ai-hub/commits/main)
+[![Contributors](https://img.shields.io/github/contributors/hitechcloudvn/nvidia-ai-hub?style=flat-square)](https://github.com/hitechcloudvn/nvidia-ai-hub/graphs/contributors)
+[![Code Size](https://img.shields.io/github/languages/code-size/hitechcloudvn/nvidia-ai-hub?style=flat-square)](https://github.com/hitechcloudvn/nvidia-ai-hub)
+[![Closed PRs](https://img.shields.io/github/issues-pr-closed/hitechcloudvn/nvidia-ai-hub?style=flat-square)](https://github.com/hitechcloudvn/nvidia-ai-hub/pulls?q=is%3Apr+is%3Aclosed)
+[![Latest Tag](https://img.shields.io/github/v/tag/hitechcloudvn/nvidia-ai-hub?sort=semver&style=flat-square)](https://github.com/hitechcloudvn/nvidia-ai-hub/tags)
+[![GitHub Streak](https://img.shields.io/badge/GitHub-Streak%20via%20Insights-24292f?style=flat-square&logo=github)](https://github.com/hitechcloudvn/nvidia-ai-hub/pulse)
 
 **Quick links:** [Overview](#overview) · [Installation](./docs/installation.md) · [Production deployment](./docs/deployment-production.md) · [Local development](./docs/local-development.md) · [Planning](#planning-and-roadmap) · [Contributing](#contributing) · [Security](#security-and-conduct) · [Community](#community) · [Licensing](#license)
 
@@ -156,25 +156,25 @@ For controlling legal terms, review [`LICENSE`](./LICENSE), [`NOTICE`](./NOTICE)
 ## Quick install
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/hitechcloud-vietnam/nvidia-ai-hub/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/hitechcloudvn/nvidia-ai-hub/main/install.sh | bash
 ```
 
 Install without starting the server:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/hitechcloud-vietnam/nvidia-ai-hub/main/install.sh | bash -s -- --no-start
+curl -fsSL https://raw.githubusercontent.com/hitechcloudvn/nvidia-ai-hub/main/install.sh | bash -s -- --no-start
 ```
 
 Install on a custom port:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/hitechcloud-vietnam/nvidia-ai-hub/main/install.sh | bash -s -- --port 9010
+curl -fsSL https://raw.githubusercontent.com/hitechcloudvn/nvidia-ai-hub/main/install.sh | bash -s -- --port 9010
 ```
 
 Install on a custom host and port:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/hitechcloud-vietnam/nvidia-ai-hub/main/install.sh | bash -s -- --host 127.0.0.1 --port 9010
+curl -fsSL https://raw.githubusercontent.com/hitechcloudvn/nvidia-ai-hub/main/install.sh | bash -s -- --host 127.0.0.1 --port 9010
 ```
 
 ### Windows local setup
@@ -266,7 +266,7 @@ Apps are delivered as Docker-based workloads with NVIDIA runtime integration. Ar
 Run the installer again:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/hitechcloud-vietnam/nvidia-ai-hub/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/hitechcloudvn/nvidia-ai-hub/main/install.sh | bash
 ```
 
 ### Start manually from an existing clone
@@ -388,7 +388,7 @@ Install Git, Python 3.11+, Node.js 22+, and Docker Desktop manually, then follow
 ## Uninstall
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/hitechcloud-vietnam/nvidia-ai-hub/main/uninstall.sh | bash
+curl -fsSL https://raw.githubusercontent.com/hitechcloudvn/nvidia-ai-hub/main/uninstall.sh | bash
 ```
 
 Preserve local runtime data during uninstall:

@@ -436,7 +436,7 @@ function About() {
           <h3 className="font-semibold text-sm font-display m-0 mb-3">{t('about.links')}</h3>
           <div className="flex flex-col gap-2.5">
             <a
-              href="https://github.com/hitechcloud-vietnam/nvidia-ai-hub"
+              href="https://github.com/hitechcloudvn/nvidia-ai-hub"
               target="_blank"
               rel="noreferrer"
               className="flex items-center gap-3 text-sm text-text hover:text-primary transition-colors no-underline"
@@ -446,7 +446,7 @@ function About() {
               <ExternalLinkIcon className="w-3.5 h-3.5 text-text-dim ml-auto" />
             </a>
             <a
-              href="https://github.com/hitechcloud-vietnam/nvidia-ai-hub/issues"
+              href="https://github.com/hitechcloudvn/nvidia-ai-hub/issues"
               target="_blank"
               rel="noreferrer"
               className="flex items-center gap-3 text-sm text-text hover:text-primary transition-colors no-underline"
@@ -461,7 +461,7 @@ function About() {
         <div className="bg-surface rounded-2xl p-5">
           <h3 className="font-semibold text-sm font-display m-0 mb-3">{t('about.madeBy')}</h3>
           <a
-            href="https://github.com/hitechcloud-vietnam/nvidia-ai-hub"
+            href="https://github.com/hitechcloudvn/nvidia-ai-hub"
             target="_blank"
             rel="noreferrer"
             className="text-sm text-text-muted hover:text-primary transition-colors no-underline"

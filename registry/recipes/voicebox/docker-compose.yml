@@ -1,6 +1,6 @@
 services:
   voicebox:
-    image: ghcr.io/hitechcloud-vietnam/voicebox-spark-ai-hub:latest
+    image: ghcr.io/hitechcloudvn/voicebox-spark-ai-hub:latest
     container_name: nvidia-ai-hub-voicebox
     ports:
       - "7867:17493"

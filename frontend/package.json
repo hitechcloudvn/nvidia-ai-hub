@@ -5,10 +5,10 @@
   "description": "Electron and web frontend for NVIDIA AI Hub by Pho Tue SoftWare Solutions JSC.",
   "author": "Pho Tue SoftWare And Technology Solutions Joint Stock Company",
   "license": "SEE LICENSE IN ../LICENSE",
-  "homepage": "https://github.com/hitechcloud-vietnam/nvidia-ai-hub",
+  "homepage": "https://github.com/hitechcloudvn/nvidia-ai-hub",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hitechcloud-vietnam/nvidia-ai-hub.git"
+    "url": "git+https://github.com/hitechcloudvn/nvidia-ai-hub.git"
   },
   "type": "module",
   "main": "electron/main.cjs",

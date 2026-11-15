@@ -21,7 +21,7 @@ from daemon.services.docker_service import (
 
 router = APIRouter(prefix="/api/recipes", tags=["recipes"])
 
-SUBMIT_RECIPE_URL = "https://github.com/hitechcloud-vietnam/nvidia-ai-hub/compare/main...main?expand=1"
+SUBMIT_RECIPE_URL = "https://github.com/hitechcloudvn/nvidia-ai-hub/compare/main...main?expand=1"
 
 
 class RecipeVerificationBody(BaseModel):

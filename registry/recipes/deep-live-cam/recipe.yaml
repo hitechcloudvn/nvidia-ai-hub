@@ -5,7 +5,7 @@ description: "Perform real-time face swaps on images, videos, and webcam streams
 author: "hacksider"
 source: "spark-ai-hub"
 website: "https://github.com/hacksider/Deep-Live-Cam"
-upstream: "https://github.com/hitechcloud-vietnam/deep-live-cam-spark-ai-hub"
+upstream: "https://github.com/hitechcloudvn/deep-live-cam-spark-ai-hub"
 fork: "https://github.com/hacksider/Deep-Live-Cam"
 category: image-gen
 tags:

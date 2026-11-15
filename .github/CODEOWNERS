@@ -1,37 +1,37 @@
 # Default ownership
-* @hitechcloud-vietnam
+* @hitechcloudvn
 
 # Backend and services
-/daemon/ @hitechcloud-vietnam
-/requirements.txt @hitechcloud-vietnam
+/daemon/ @hitechcloudvn
+/requirements.txt @hitechcloudvn
 
 # Frontend
-/frontend/ @hitechcloud-vietnam
-/frontend/package.json @hitechcloud-vietnam
-/frontend/package-lock.json @hitechcloud-vietnam
+/frontend/ @hitechcloudvn
+/frontend/package.json @hitechcloudvn
+/frontend/package-lock.json @hitechcloudvn
 
 # Registry recipes and runtime assets
-/registry/ @hitechcloud-vietnam
-/scripts/ @hitechcloud-vietnam
-/install.sh @hitechcloud-vietnam
-/run.sh @hitechcloud-vietnam
-/check.sh @hitechcloud-vietnam
-/uninstall.sh @hitechcloud-vietnam
-/uninstall.ps1 @hitechcloud-vietnam
+/registry/ @hitechcloudvn
+/scripts/ @hitechcloudvn
+/install.sh @hitechcloudvn
+/run.sh @hitechcloudvn
+/check.sh @hitechcloudvn
+/uninstall.sh @hitechcloudvn
+/uninstall.ps1 @hitechcloudvn
 
 # Governance and repository policy
-/.github/ @hitechcloud-vietnam
-/.github/dependabot.yml @hitechcloud-vietnam
-/.github/labeler.yml @hitechcloud-vietnam
-/.github/workflows/ci-validation-disabled.yml @hitechcloud-vietnam
-/.github/workflows/dependency-updates-disabled.yml @hitechcloud-vietnam
-/.github/workflows/dependabot-auto-triage-disabled.yml @hitechcloud-vietnam
-/.github/workflows/docs-governance-disabled.yml @hitechcloud-vietnam
-/.github/workflows/labeler.yml @hitechcloud-vietnam
-/.github/workflows/optional-workflows-status.yml @hitechcloud-vietnam
-/.github/workflows/pr-validation.yml @hitechcloud-vietnam
-/.github/workflows/recipe-validation-disabled.yml @hitechcloud-vietnam
-/.github/workflows/release-package-disabled.yml @hitechcloud-vietnam
-/*.md @hitechcloud-vietnam
-/NOTICE @hitechcloud-vietnam
-/LICENSE @hitechcloud-vietnam
+/.github/ @hitechcloudvn
+/.github/dependabot.yml @hitechcloudvn
+/.github/labeler.yml @hitechcloudvn
+/.github/workflows/ci-validation-disabled.yml @hitechcloudvn
+/.github/workflows/dependency-updates-disabled.yml @hitechcloudvn
+/.github/workflows/dependabot-auto-triage-disabled.yml @hitechcloudvn
+/.github/workflows/docs-governance-disabled.yml @hitechcloudvn
+/.github/workflows/labeler.yml @hitechcloudvn
+/.github/workflows/optional-workflows-status.yml @hitechcloudvn
+/.github/workflows/pr-validation.yml @hitechcloudvn
+/.github/workflows/recipe-validation-disabled.yml @hitechcloudvn
+/.github/workflows/release-package-disabled.yml @hitechcloudvn
+/*.md @hitechcloudvn
+/NOTICE @hitechcloudvn
+/LICENSE @hitechcloudvn

@@ -98,14 +98,14 @@ Expected result:
 The repository includes an opinionated installer for `apt`-based Linux systems:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/hitechcloud-vietnam/nvidia-ai-hub/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/hitechcloudvn/nvidia-ai-hub/main/install.sh | bash
 ```
 
 Optional flags:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/hitechcloud-vietnam/nvidia-ai-hub/main/install.sh | bash -s -- --no-start
-curl -fsSL https://raw.githubusercontent.com/hitechcloud-vietnam/nvidia-ai-hub/main/install.sh | bash -s -- --host 127.0.0.1 --port 9010
+curl -fsSL https://raw.githubusercontent.com/hitechcloudvn/nvidia-ai-hub/main/install.sh | bash -s -- --no-start
+curl -fsSL https://raw.githubusercontent.com/hitechcloudvn/nvidia-ai-hub/main/install.sh | bash -s -- --host 127.0.0.1 --port 9010
 ```
 
 What the installer currently does:
@@ -135,7 +135,7 @@ Important limitations:
 ### 3.4 Manual Linux install from a clone
 
 ```bash
-git clone https://github.com/hitechcloud-vietnam/nvidia-ai-hub.git
+git clone https://github.com/hitechcloudvn/nvidia-ai-hub.git
 cd nvidia-ai-hub
 cp .env.example .env
 python3 -m venv .venv
@@ -232,7 +232,7 @@ Optional:
 In PowerShell:
 
 ```powershell
-git clone https://github.com/hitechcloud-vietnam/nvidia-ai-hub.git
+git clone https://github.com/hitechcloudvn/nvidia-ai-hub.git
 Set-Location nvidia-ai-hub
 Copy-Item .env.example .env
 python -m venv .venv
@@ -285,7 +285,7 @@ Optional:
 ### 5.2 Prepare a development checkout
 
 ```bash
-git clone https://github.com/hitechcloud-vietnam/nvidia-ai-hub.git
+git clone https://github.com/hitechcloudvn/nvidia-ai-hub.git
 cd nvidia-ai-hub
 cp .env.example .env
 python3 -m venv .venv

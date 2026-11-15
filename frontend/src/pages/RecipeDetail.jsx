@@ -748,7 +748,7 @@ function RecipeCommunityTab({ recipe, onVerify, onRate, onAddTip, onExport }) {
                 {t('recipe.communityContributionBody')}
               </p>
               <a
-                href={community.submit_recipe_url || 'https://github.com/hitechcloud-vietnam/nvidia-ai-hub/compare/main...main?expand=1'}
+                href={community.submit_recipe_url || 'https://github.com/hitechcloudvn/nvidia-ai-hub/compare/main...main?expand=1'}
                 target="_blank"
                 rel="noreferrer"
                 className="mt-3 inline-flex items-center gap-2 text-primary no-underline font-semibold hover:text-primary/80"

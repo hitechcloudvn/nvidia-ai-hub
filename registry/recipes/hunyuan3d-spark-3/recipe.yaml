@@ -4,7 +4,7 @@ version: "1.0.0"
 description: "Image-to-3D textured mesh generation by Tencent. Converts images into GLB models with PBR textures. Pre-built for DGX Spark with Python 3.10, Blender bpy, and CUDA 13."
 author: "WaxacaBytes"
 website: "https://github.com/Tencent-Hunyuan/Hunyuan3D-2.1"
-upstream: "https://github.com/hitechcloud-vietnam/hunyuan3d-spark"
+upstream: "https://github.com/hitechcloudvn/hunyuan3d-spark"
 fork: "https://github.com/Tencent-Hunyuan/Hunyuan3D-2.1"
 category: image-gen
 tags:

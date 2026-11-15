@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-REPO="https://github.com/hitechcloud-vietnam/nvidia-ai-hub.git"
+REPO="https://github.com/hitechcloudvn/nvidia-ai-hub.git"
 INSTALL_DIR="$HOME/nvidia-ai-hub"
 PORT=9000
 HOST="0.0.0.0"

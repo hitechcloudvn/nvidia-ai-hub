@@ -1,6 +1,6 @@
 services:
   spatialedit:
-    image: ghcr.io/hitechcloud-vietnam/spatialedit-spark-ai-hub:latest
+    image: ghcr.io/hitechcloudvn/spatialedit-spark-ai-hub:latest
     container_name: nvidia-ai-hub-spatialedit
     ports:
       - "7870:7860"

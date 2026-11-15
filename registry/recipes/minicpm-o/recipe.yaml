@@ -5,7 +5,7 @@ description: "Run MiniCPM-o 2.6 on NVIDIA GPUs for streaming multimodal chat wit
 author: "OpenBMB / HiTechCloud Vietnam"
 source: "nvidia-ai-hub"
 website: "https://github.com/OpenBMB/MiniCPM-o"
-upstream: "https://github.com/hitechcloud-vietnam/minicpm-o-spark-ai-hub"
+upstream: "https://github.com/hitechcloudvn/minicpm-o-spark-ai-hub"
 fork: "https://github.com/OpenBMB/MiniCPM-o"
 category: multi-modal
 categories:

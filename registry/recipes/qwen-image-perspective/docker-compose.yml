@@ -1,6 +1,6 @@
 services:
   qwen-image-perspective:
-    image: ghcr.io/hitechcloud-vietnam/qwen-image-perspective-spark-ai-hub:latest
+    image: ghcr.io/hitechcloudvn/qwen-image-perspective-spark-ai-hub:latest
     container_name: nvidia-ai-hub-qwen-image-perspective
     ports:
       - "7863:7860"
