@@ -27,7 +27,7 @@
     "desktop:pack": "npm run desktop:prepare && electron-builder --dir",
     "desktop:dist": "npm run desktop:prepare && electron-builder",
     "desktop:dist:win": "npm run desktop:prepare && electron-builder --win nsis -c.artifactName=\"${productName}-${version}-win-${arch}-setup.${ext}\" && electron-builder --win portable -c.artifactName=\"${productName}-${version}-win-${arch}-portable.${ext}\" && electron-builder --win zip -c.artifactName=\"${productName}-${version}-win-${arch}.${ext}\" && electron-builder --win msi -c.artifactName=\"${productName}-${version}-win-${arch}.${ext}\"",
-    "postinstall": "npm run electron:ensure"
+    "postinstall": "node ./electron/scripts/ensure-electron.mjs --soft"
   },
   "dependencies": {
     "@xterm/addon-fit": "^0.11.0",

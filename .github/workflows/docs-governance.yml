@@ -4,27 +4,23 @@ on:
   pull_request:
     branches: [main]
     paths:
-      - 'README.md'
+      - '*.md'
+      - '*.vi.md'
       - 'docs/**'
       - '.github/**'
-      - 'CODE_OF_CONDUCT.md'
-      - 'CONTRIBUTING.md'
-      - 'SECURITY.md'
-      - 'SUPPORT.md'
+      - 'planning/**'
       - 'LICENSE'
-      - 'COMMERCIAL-LICENSE.md'
+      - 'NOTICE'
   push:
     branches: [main]
     paths:
-      - 'README.md'
+      - '*.md'
+      - '*.vi.md'
       - 'docs/**'
       - '.github/**'
-      - 'CODE_OF_CONDUCT.md'
-      - 'CONTRIBUTING.md'
-      - 'SECURITY.md'
-      - 'SUPPORT.md'
+      - 'planning/**'
       - 'LICENSE'
-      - 'COMMERCIAL-LICENSE.md'
+      - 'NOTICE'
   workflow_dispatch:
 
 permissions:
